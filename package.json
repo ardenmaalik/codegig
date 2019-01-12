@@ -1,0 +1,29 @@
+{
+  "name": "codegig",
+  "version": "1.0.0",
+  "description": "Simple job searh app for programmers",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvvlq/codegig.git"
+  },
+  "author": "Arden Maalik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvvlq/codegig/issues"
+  },
+  "homepage": "https://github.com/mvvlq/codegig#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "npm": "^6.5.0",
+    "pg": "^7.7.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0"
+  }
+}
