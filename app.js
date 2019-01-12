@@ -1,3 +1,9 @@
+const client = new Client({
+    connectionString: process.env.DATABASE_URL,
+    ssl: true,
+  });
+  
+  client.connect();
 const express = require('express');//web framework
 const exphbs = require('express-handlebars');//display html and dynamic content
 const bodyParser = require('body-parser');//get data from form
