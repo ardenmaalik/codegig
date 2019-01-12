@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 var env = process.env.NODE_ENV || "production";
-var config = require(__dirname + 'C:\development\apps\codegig\node_modules\.bin\config\config.json')[env];
+var config = require(__dirname + '/../node_modules/.bin/config/config.json')[env];
 var db = {};
 if (config.use_env_variable) {
    var sequelize = new Sequelize(process.env[config.use_env_variable]);
